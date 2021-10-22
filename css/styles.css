@@ -13,3 +13,7 @@ h2 {
   text-align: justify;
   margin-top: 50px;
 }
+
+.form-control {
+  width: 50%;
+}
