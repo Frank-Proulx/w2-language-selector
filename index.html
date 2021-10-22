@@ -2,20 +2,21 @@
 <html lang="en-US">
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Language Selector</title>
+  <title>Programming Language Selector</title>
 </head>
 <body>
   <div class="container">
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid">
-        <h1 class="display-4">Programming language selector</h1>
-        <p class="lead">Find out once and for all which language you should choose!</p>
+        <h1 class="display-4">What's my programming language?</h1>
+        <p class="lead">Find out what programming language is right for me.</p>
       </div>
     </div>
-    <h2 id="intro">Choosing a programming language can be a daunting prospect for anyone. Remove the fear of regret and self-doubt with our new patented language selector quiz!</h2>
+    <hr>
     <form id="quiz">
       <div class="form-group">
         <label for="question1">How "high-level" do you like your programming languages to be?</label>
@@ -44,7 +45,7 @@
       <div class="form-group">
         <label for="question4">If you had to choose, which of the following movie genres would you pick?</label>
         <select class="form-control" id="question4">
-          <option value="1">Romantic comedy</option>
+          <option value="1">Romantic Comedy</option>
           <option value="2">Action</option>
           <option value="3">Science Fiction</option>
         </select>
@@ -54,14 +55,14 @@
         <select class="form-control" id="question5">
           <option value="1">Deliver it personally by train</option>
           <option value="2">Write a letter</option>
-          <option value="3">Yell it out the window</option>
+          <option value="3">Yell it out the windows</option>
         </select>
       </div>
       <button type="submit" class="btn">Compute!</button>
-      <button id="resetter" type="reset" class="btn">Reset</button>
+      <button id="resetter" type="reset" class="btn hider">Reset</button>
     </form>
     <div id="output" class="hider">
-      <h2>Thank you for taking our perfectly accurate language selector quiz! We have calculated your results and the programming language best suited for you is:</h2>
+      <h2>You got...</h2>
       <p id="language-result">
 
       </p>
