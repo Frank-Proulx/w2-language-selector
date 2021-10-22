@@ -29,3 +29,7 @@ h2 {
 .hider {
   display: none;
 }
+
+#language-result {
+  font-size: 30px;
+}
