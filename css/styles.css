@@ -15,5 +15,14 @@ h2 {
 }
 
 .form-control {
-  width: 50%;
+  width: 90%;
+}
+
+#quiz {
+  float: left;
+}
+
+#output {
+  display: none;
+  clear: right;
 }
