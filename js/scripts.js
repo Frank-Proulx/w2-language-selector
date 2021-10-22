@@ -10,14 +10,14 @@ $(document).ready(function() {
     const question3 = parseInt($("#question3").val());
     const question4 = parseInt($("#question4").val());
     const question5 = parseInt($("#question5").val());
-    $("#output").toggle();
+    $("#output").removeClass("hider");
     let result = average(question1, question2, question3, question4, question5);
-    if (result < (5 + 10/3)) {
-      1;
-    } else if (result >= (5 + 10/3) && result < (5 + 20/3)) {
-      2;
+    if (result <= 1.5) {
+      $("#language-result").text("Ruby!");
+    } else if (result > 1.5 && result < 2.5) {
+      $("#language-result").text("Javascript!");;
     } else {
-      3;
+      $("#language-result").text("C#!");;
     }
     event.preventDefault();
 
