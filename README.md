@@ -1,4 +1,4 @@
-# Programming language selector
+# Programming language suggester
 
 #### By Frank Proulx
 
@@ -14,7 +14,7 @@
 
 ## Description
 
-This website uses a scoring quiz to determine based on your answers which programming language is best for the user. It then displays the result along with a picture that corresponds to their language.
+This website uses a scoring quiz to determine which programming language is best for the user. It then displays the result along with a picture and a message that corresponds to their language. The options are Ruby, Javascript and C#. 
 
 ## Setup/Installation Requirements
 

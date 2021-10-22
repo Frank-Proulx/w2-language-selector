@@ -13,17 +13,17 @@ $(document).ready(function() {
     $("#output").removeClass("hider");
     $("#resetter").removeClass("hider");
     $("#quiz").addClass("floater");
-    $("img").remove();
+    $("#takeout").remove();
     let result = average(question1, question2, question3, question4, question5);
     if (result <= 1.5) {
       $("#language-result").text("Ruby!");
-      $("#output").append("<img src='img/ruby.jpeg' alt='a picture of a ruby'>");
+      $("#output").append("<div id='takeout'><img src='img/ruby.jpeg' alt='a picture of a ruby'><p>You're one sparkly programmer.</p></div>");
     } else if (result > 1.5 && result < 2.5) {
       $("#language-result").text("Javascript!");;
-      $("#output").append("<img src='img/coffee.jpeg' alt='a picture of a coffee beans'>");
+      $("#output").append("<div id='takeout'><img src='img/coffee.jpeg' alt='a picture of a coffee beans'><p>You can really grind out some code.</p></div>");
     } else {
       $("#language-result").text("C#!");;
-      $("#output").append("<img src='img/csharp4.jpeg' alt='a picture of a music note'>");
+      $("#output").append("<div id='takeout'><img src='img/csharp4.jpeg' alt='a picture of a music note'><p>You are a programming virtuoso.</p></div>");
     }
     event.preventDefault();
   });
