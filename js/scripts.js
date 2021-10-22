@@ -11,6 +11,7 @@ $(document).ready(function() {
     const question4 = parseInt($("#question4").val());
     const question5 = parseInt($("#question5").val());
     $("#output").removeClass("hider");
+    $("#quiz").addClass("floater");
     $("img").remove();
     let result = average(question1, question2, question3, question4, question5);
     if (result <= 1.5) {
@@ -24,6 +25,9 @@ $(document).ready(function() {
       $("#output").append("<img src='img/csharp.png' alt='a picture of a music note'>");
     }
     event.preventDefault();
-
   });
+  $("#resetter").click(function(event) {
+    $("#output").addClass("hider");
+    $("#quiz").removeClass("floater");
+  })
 });
