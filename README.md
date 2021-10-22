@@ -1,28 +1,29 @@
-# _{Application Name}_
+# Programming language selector
 
-#### By _**{List of contributors}**_
+#### By Frank Proulx
 
-#### _{Brief description of application}_
+#### A website that gives a survey to help you choose which programming language is best for you.
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* JQuery
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This website uses 
 
 ## Setup/Installation Requirements
 
 * Create and/or navigate to the directory you would like to contain this project on your computer.
 * Initialize a git repository by typing **git init** in the terminal.
-* Type **git clone https://github.com/Frank-Proulx/insert_name_here** to clone the repository to your local machine.
-* Open the file "index.html" in the newly created "portfolio-landing" folder using either the GUI in your finder window, or typing **cd insert_name_here** and pressing return to navigate into the project folder, and then typing **open index.html** in the terminal from within the portfolio-landing folder.  
+* Type **git clone https://github.com/Frank-Proulx/w2-language-selector** to clone the repository to your local machine.
+* Open the file "index.html" in the newly created "portfolio-landing" folder using either the GUI in your finder window, or typing **cd w-language-selector** and pressing return to navigate into the project folder, and then typing **open index.html** in the terminal from within the portfolio-landing folder.  
 
-## Link to [GitHub Pages](https://frank-proulx.github.io//)
+## Link to [GitHub Pages](https://frank-proulx.github.io/w2-language-selector/)
 
 ## Known Bugs
 
