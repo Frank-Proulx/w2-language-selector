@@ -1,6 +1,5 @@
 body {
   background-color: #c79dae;
-  padding-bottom: 40px;
 }
 
 .jumbotron {
@@ -10,6 +9,7 @@ body {
   border-radius: 10px;
   background-color: #e2c8d3;
   border: 2px solid black;
+  padding: 3rem 2rem;
 }
 
 h2 {
@@ -30,7 +30,7 @@ label {
 }
 
 #quiz {
-  margin: 25px 40px 0 20px;
+  margin: 25px 40px 0 30px;
 }
 
 .floater {
@@ -64,4 +64,8 @@ img {
 
 p {
   text-align: center;
+}
+
+.pg-btm {
+  padding-bottom: 100px;
 }
