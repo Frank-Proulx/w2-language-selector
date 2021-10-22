@@ -13,10 +13,10 @@ $(document).ready(function() {
     $("#output").removeClass("hider");
     $("img").remove();
     let result = average(question1, question2, question3, question4, question5);
-    if (result <= 5/3) {
+    if (result <= 1.5) {
       $("#language-result").text("Ruby!");
       $("#output").append("<img src='img/ruby.jpeg' alt='a picture of a ruby'>");
-    } else if (result > 5/3 && result < 7/3) {
+    } else if (result > 1.5 && result < 2.5) {
       $("#language-result").text("Javascript!");;
       $("#output").append("<img src='img/coffee.jpeg' alt='a picture of a coffee beans'>");
     } else {

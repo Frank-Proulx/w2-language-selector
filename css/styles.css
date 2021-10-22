@@ -1,5 +1,6 @@
 body {
   background-color: #c79dae;
+  padding-bottom: 40px;
 }
 
 .jumbotron {
@@ -7,6 +8,9 @@ body {
   width: 75%;
   margin: 0 auto;
   border-radius: 10px;
+  background-color: #dfb2c4;
+  border: 2px solid black;
+
 }
 
 h2 {
@@ -14,16 +18,19 @@ h2 {
   margin-top: 50px;
 }
 
-.form-control {
-  width: 90%;
+label {
+  font-size: 18px;
 }
 
 #quiz {
   float: left;
+  margin-top: 30px;
+  margin-right: 40px;
 }
 
 #output {
   clear: right;
+  margin-top: -30px;
 }
 
 .hider {
@@ -32,4 +39,10 @@ h2 {
 
 #language-result {
   font-size: 30px;
+}
+
+.btn {
+  background-color: lightgoldenrodyellow;
+  border: 1px solid black;
+  margin-top: 15px;
 }
